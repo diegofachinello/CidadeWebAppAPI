@@ -1,0 +1,8 @@
+<div class="row">
+  <div class="col-md-4">
+      <app-add-or-update-cidade (cidadeCreated)="createOrUpdateCidade($event)" [cidadeInfo]="currentCidade"></app-add-or-update-cidade>
+  </div>
+  <div class="col-md-8">
+      <app-grid-cidade [cidadeData]="cidadeData" (editClicked)="editClicked($event)" (newClicked)="newClicked()" (recordDeleted)="deleteClicked($event)"></app-grid-cidade>
+  </div>
+</div>
