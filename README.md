@@ -1,6 +1,29 @@
 # CidadeWebAppAPI
 Aplicação API Rest com ASP net core 2.2 API e Angular 5
 
+API para cadastrar cidades com persistência de dados no SQL Server database.
+
+Funções: 
+
+- GET
+- PUT
+- POST
+- DELETE
+
+- Tecnologias utilizadas:
+
+- Backend construido com asp net core 2.2 
+
+- Frontend em Anglular 5 
+
+- TypeScript
+
+- HTML5
+
+- Bootstrap
+
+- CSS3
+
 Instruções:
 
 - SQL Server 2017 Local
